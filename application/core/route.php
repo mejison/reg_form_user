@@ -4,7 +4,7 @@
             static function start()
             {
                 // контроллер и действие по умолчанию
-                $controller_name = 'Profile';
+                $controller_name = 'index';
                 $action_name = 'show';
                 
                 $routes = explode('/', $_SERVER['REQUEST_URI']);

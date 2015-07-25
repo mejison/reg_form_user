@@ -8,6 +8,7 @@ class Config{
 	public $data_base = "Source";
 	public $prefix = "prefix_";
 
+
 }
 
 ?>

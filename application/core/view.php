@@ -1,5 +1,5 @@
 <?php 
-
+	include "application/core/config.php";
     class View
     {
         //public $template_view; // здесь можно указать общий вид по умолчанию.
@@ -12,7 +12,7 @@
                 extract($data);
             }
             */
-            
+            array_push($data, new Config());
             include 'application/views/'.$template_view;
         }
     }

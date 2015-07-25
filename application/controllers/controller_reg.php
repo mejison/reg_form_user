@@ -2,7 +2,6 @@
 	
 	class Controller_Reg extends Controller
 	{
-
 		function action_show() {
 			$this->model = new Model_Reg();
 			$data = $this->model->get_data_all();
